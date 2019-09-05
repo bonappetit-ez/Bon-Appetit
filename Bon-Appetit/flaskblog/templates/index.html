@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bon-Appetit</title>
+    <style>
+        button {
+            display: inline-block;
+            background-color: #FD0000;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 16px;
+            padding: 15px 32px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin-left: 75%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body style="background-image:url(static/index.jpg);background-size:cover;">
+    <div style="background-color: rgba(0,0,0,0.6);margin-left:22%;margin-right:22%;margin-top:10%;border-radius:10%">
+        <br />
+        <h1 style="font-family: 'Playball', cursive;text-align:center; color:white;font-size:140px;margin-block-start: 10px; margin-block-end: 0px;">Bon-Appetit</h1>
+        <h1 style="font-family: 'Lobster', cursive;font-size:40px;text-align:center; color:#FCFF53; margin-block-start: 0px; margin-block-end: 0px;">Planet to Sate your Hunger</h1>
+        <p style="color:white;font-size:20px; font-family: 'Lobster', cursive;text-align: center;color:#FCFF53;">A recipe has no soul<br />You, as the cook, must <strong>bring soul</strong> to the recipe</p><br /><br />
+        <button><a style="text-decoration: none;color:white;font-weight:bold;" class="ml-2" href="{{ url_for('login') }}"><span>Explore</span></a></button>
+        <br /><br /><br />
+    </div>
+</body>
+</html>
