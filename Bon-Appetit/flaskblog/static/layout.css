@@ -1,0 +1,16 @@
+﻿body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/85/28/0457cc15d2567e3.jpg);
+    background-size: cover;
+
+}
+.nav-bar {
+    background: black;
+    color:white;
+    margin:0;
+    padding:10px;
+}
+.bon {
+    font-family: 'Playball';
+    font-size: 20px;
+}
+
